@@ -7,7 +7,7 @@ aws_region       = "us-east-1"
 
 # Ubuntu 22.04 LTS AMI — verify the latest ID for your region:
 # https://cloud-images.ubuntu.com/locator/ec2/
-ami_id           = "ami-0c7217cdde317cfec"
+ami_id           = "ami- 0c7217cdde317cfec"
 
 instance_type    = "t2.micro"
 key_pair_name    = "cicd-pipeline-key"
