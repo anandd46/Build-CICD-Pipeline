@@ -14,7 +14,7 @@ def _now() -> datetime.datetime:
 app = Flask(__name__)
 
 # Pull environment config at startup
-ENV = os.environ.get("APP_ENV", "production")
+ENV = os.environ.get("APP_ENV","production")
 CONTAINER_NAME = os.environ.get("HOSTNAME", socket.gethostname())
 
 
