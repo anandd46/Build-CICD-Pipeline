@@ -49,7 +49,7 @@ jobs:
           pip install -r requirements.txt
 
       # Stage 4 — Run unit tests
-      - name: Run unit tests
+      - name:  Run unit tests
         run: |
           pytest test_app.py -v --tb=short --cov=app --cov-report=term-missing
         env:
