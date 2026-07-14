@@ -50,7 +50,7 @@ log "Container started. Waiting for application to become healthy..."
 # ── Step 6: Health check with retries ────────────────────────────────────────
 for i in $(seq 1 $HEALTH_RETRIES); do
     sleep "$HEALTH_DELAY"
-    STATUS=$(curl -s -o /dev/null -w "%{http_code}" "http://localhost:${APP_PORT}/health" 2>/dev/null || echo "000")
+    STATUS=$(curl -s -o /dev/null -w "%{http_code}" "http://localhost: ${APP_PORT}/health" 2>/dev/null || echo "000")
     if [ "$STATUS" = "200" ]; then
         log "Health check passed (attempt $i/$HEALTH_RETRIES). Application is live."
         break
