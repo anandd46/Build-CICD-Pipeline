@@ -982,15 +982,7 @@ No manual steps after initial setup. Developer workflow: write code → commit �
 19. **Kubernetes migration** — convert the Docker Compose file to Kubernetes manifests for EKS deployment
 20. **API versioning** and OpenAPI spec generation with Flask-RESTX
 
----
 
-## Resume Description
-
-**CI/CD Pipeline with GitHub Actions, Docker & AWS EC2** *(Personal Project)*
-
-Designed and implemented a production-style automated delivery pipeline for a Python Flask application. Built a 12-stage GitHub Actions workflow that runs unit tests, builds and validates a Docker image on the CI runner, then deploys to AWS EC2 over SSH with zero manual intervention. Provisioned cloud infrastructure using Terraform: EC2 instance, Security Group, Elastic IP, and SSH Key Pair with a user-data bootstrap script. Used multi-stage Docker builds with a non-root runtime user to produce minimal, security-hardened container images. Wrote 25 pytest unit tests covering all API endpoints with coverage reporting integrated into the CI pipeline. Implemented automated health checks at both the Docker layer and the pipeline layer to catch deployment failures before the workflow reports success.
-
----
 
 ## Skills Demonstrated
 
