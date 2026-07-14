@@ -103,7 +103,7 @@ class TestInfoEndpoint:
         resp = client.get("/info")
         assert resp.content_type == "application/json"
 
-    def test_info_has_python_version(self, client):
+    def test_info_has_python_version(self, client): 
         resp = client.get("/info")
         body = json.loads(resp.data)
         assert "python_version" in body
