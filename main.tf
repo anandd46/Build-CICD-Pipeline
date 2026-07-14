@@ -10,7 +10,7 @@ resource "aws_key_pair" "deploy" {
 
 # ── Security group ────────────────────────────────────────────────────────────
 resource "aws_security_group" "app_sg" {
-   name        = "${var.project_name}-sg"
+   name        =  "${var.project_name}-sg"
   description = "Allow SSH and application traffic for the CI/CD demo"
 
   # SSH — restrict to your IP in production
