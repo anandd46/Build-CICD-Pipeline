@@ -25,7 +25,7 @@ variable "instance_type" {
 }
 
 variable "ami_id" {
-  description = "Ubuntu 22.04 LTS AMI ID. Update for your region."
+  description = " Ubuntu 22.04 LTS AMI ID. Update for your region."
   type        = string
   # Ubuntu 22.04 LTS (us-east-1) — verify latest at https://cloud-images.ubuntu.com/locator/ec2/
   default = "ami-0c7217cdde317cfec"
