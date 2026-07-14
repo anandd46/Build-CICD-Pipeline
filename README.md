@@ -1,6 +1,6 @@
 # CI/CD Pipeline with GitHub Actions, Docker & AWS EC2
 
-[![CI/CD Pipeline](https://github.com/YOUR_GITHUB_USERNAME/cicd-pipeline/actions/workflows/cicd.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/cicd-pipeline/actions)
+[![CI/CD Pipeline](https://github.com/anandd46/cicd-pipeline/actions/workflows/cicd.yml/badge.svg)](https://github.com/anandd46/cicd-pipeline/actions)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker)](https://www.docker.com/)
 [![Terraform](https://img.shields.io/badge/Terraform-1.7+-7B42BC?logo=terraform)](https://www.terraform.io/)
