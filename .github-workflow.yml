@@ -144,7 +144,7 @@ jobs:
 
       # Stage 10 — Build new Docker image on EC2
       - name: Build new Docker image on EC2
-        run: |
+        run: | 
           ssh -i ~/.ssh/deploy_key \
               -o StrictHostKeyChecking=no \
               ${{ secrets.EC2_USERNAME }}@${{ secrets.EC2_HOST }} \
